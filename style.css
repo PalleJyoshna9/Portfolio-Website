@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* NAVBAR */
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background: #333;
+    color: white;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.logo {
+    font-size: 22px;
+}
+
+/* HERO SECTION */
+.hero {
+    height: 70vh;
+    background-image: url("https://images.unsplash.com/photo-1503264116251-35a269479413?w=1200");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.hero-content {
+    background: rgba(0,0,0,0.6);
+    padding: 20px 40px;
+    border-radius: 10px;
+}
+
+.hero-content h1 {
+    font-size: 40px;
+}
+
+.hero-content span {
+    color: #ff5733;
+}
+
+/* ABOUT SECTION */
+#about {
+    padding: 50px;
+    text-align: center;
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 20px 0;
+    object-fit: cover;
+}
+
+/* PROJECT SECTION */
+#projects {
+    padding: 50px;
+    text-align: center;
+}
+
+.project-card {
+    background: #eee;
+    padding: 20px;
+    width: 70%;
+    margin: 20px auto;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.project-img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+/* CONTACT */
+#contact {
+    padding: 50px;
+    text-align: center;
+}
+
+/* FOOTER */
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
